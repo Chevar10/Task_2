@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.218), rgba(0, 0, 0, 0.8)),
+    url(https://cutewallpaper.org/21/sky-blue-background-images/1000+-Beautiful-Blue-Sky-Photos-Pexels-Free-Stock-Photos.jpeg); */
+  background-position: center;
+  background-size: cover;
+}
+.head {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  font-size: 35px;
+}
+h2{
+    text-align: center;
+    color: #777;
+}
+.create {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-left: 15%; 
+}
+.containers {
+  width: 1400px;
+  height: 600px;
+  margin: 1%auto;
+  background: #fff;
+  border-radius: 15px;
+  position: relative;
+  padding: 0%;
+  overflow: hidden;
+}
+.containers form {
+  width: 92%;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  transition: 0.5s;
+}
+form input {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 5px 0;
+  border: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+::placeholder{
+    color: #777;
+}
+.btn-box{
+width: 100%;
+margin: 30px auto;
+text-align: right;
+}
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #0551b5, #032858);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+#Form2{
+    left:1500px
+}
+#Form3{
+    left:1500px
+}
+.step-row{
+    width: 1400px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+.step-col{
+    width: 466px;
+    text-align: center;
+    color: #35affb;
+    position: relative;
+}
+#progress{
+    position: absolute;
+    height: 100%;
+    width: 466px;
+    background: linear-gradient(to right, #0551b5, #032858);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 1s;
+}
+#progress::after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20 px solid #ffad06;
+}
+
+
+
+
+
+
